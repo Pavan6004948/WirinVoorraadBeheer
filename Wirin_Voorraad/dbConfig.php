@@ -1,5 +1,16 @@
 <?php
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "wirin_voorraad";
+
+$connection = new mysqli($servername, $username, $password, $database);
+
+if ($connection->connect_error){
+    die("connection failed: ". $connection->connect_error);
+}
+
 class DbConfig{
 
     public function connect(){
