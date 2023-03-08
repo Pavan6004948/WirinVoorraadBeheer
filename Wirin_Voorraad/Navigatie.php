@@ -15,7 +15,7 @@
 <nav>
     <div class="nav-links">
         <a href="Home.php">Home</a>
-        <a href="Tabellen.php">Voorraad</a>
+        <a href="Voorraad.php">Voorraad</a>
         <a href="Geschiedenis.php">Geschiedenis</a>
         <a href=""><i class="fa-solid fa-user"></i></a>
     </div>
